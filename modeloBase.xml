@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<common:ServiceInvocationCollection xmlns:common="http://common.icon.daimler.com/il" xmlns:partner_pl="http://partner.icon.daimler.com/pl" xmlns:mdsd_sl="http://system.mdsd.ibm.com/sl" xmlns:revenue_pl="http://revenue.icon.daimler.com/pl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <executionSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="mdsd_sl:ExecutionSettingsType" tenantId="77530BR" userId="ICON_tec_EDF01" dateTime="2018-09-17T05:10:52" causation="migration" additionalInformation1="1" correlationId="initial export" issueThreshold="error" />
+  <invocation operation="createCustomerFinancialDocument">
+    <parameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="revenue_pl:RevenueType" externalId="11002-1-0000035579" sourceSystem="xmlFiles" masterDataReleaseVersion="9" migrationDate="2018-10-29T00:00:00" invoiceDate="20171026" invoiceNumberFinance="0000035579" calculationReferenceDate="20171020" collectiveInvoice="true" currency="BRL" customerInvoiceDefinition="MPPI" documentDate="20171026" factoringIndicator="false" financeSystemTransferDate="2017-10-20T12:00:00" financialDocumentDefinition="invoice" financialDocumentSource="imported" grossAmount="761.11000000" netAmount="761.11000000" status="exported" vatAmount="0">
+      <financialDocumentReceiver xsi:type="partner_pl:OrganisationalPersonType" number="2A256100" sourceSystem="migration" />
+      <position creationDate="20171026" invoicePositionNetAmount="761.11000000" invoicePositionVATAmount="0" periodFrom="20170901" positionNumber="1" quantity="1" taxation="CUS_INV_Internal" />
+    </parameter>
+    <parameter type="xsd:string">11002/1</parameter>
+    <parameter type="xsd:string">extContractSys</parameter>
+    <parameter type="xsd:string">00011002/000001</parameter>
+  </invocation>
+</common:ServiceInvocationCollection>
